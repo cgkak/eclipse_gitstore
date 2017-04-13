@@ -9,7 +9,7 @@ int main(int argc, const char* argv[])
 	int fd = open("/dev/motor", 0);
 	while (1)
 	{
-		printf("kangkai action：\n");
+		printf("action：\n");
 		printf(
 				"1:MOTOR_STOP 2:MOTOR_RESET 3:MOTOR_MOVE 4:MOTOR_GET_STATUS 5:MOTOR_SPEED 6:MOTOR_GOBACK 7:MOTOR_CRUISE\n");
 		printf("choose:");
